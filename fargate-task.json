@@ -1,0 +1,15 @@
+{
+    "family": "fargate-lab9-micro-service",
+    "networkMode": "awsvpc",
+    "containerDefinitions": [
+        {
+            "name": "fargate-app-lab9",
+            "image": "evr0518/docker-micro-service"
+        }
+    ],
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "cpu": "256",
+    "memory": "512"
+}
