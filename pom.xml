@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.microservice</groupId>
-	<artifactId>micro-demo</artifactId>
+	<artifactId>docker-micro-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>micro-demo</name>
 	<description>Demo project for Spring Boot</description>
